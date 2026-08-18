@@ -15,29 +15,40 @@ This project provides an end-to-end analysis of e-commerce performance, delivery
 
 ---
 
-## 📈 Dashboard Features & Pages
+## 📸 Dashboard Screenshots & Features
 
 ### 1. Profit & Orders Overview
-* Tracks high-level sales and profitability metrics.
+![Profit & Orders Overview](Image_1.png)
+* Tracks high-level sales ($15M) and net profit ($13.15M).
 * **Top Region:** São Paulo (SP) leads with 41K+ orders (~36%).
 * **Payment Methods:** Credit Card dominates (73.9%), followed by Boleto (19.0%).
-* Monthly trend analysis and product-level order distribution.
+
+---
 
 ### 2. Customers & Reviews Analysis
+![Customers & Reviews Analysis](Image_2.png)
 * **Customer Sentiment:** 77%+ positive ratings (57.8% 5-Star, 19.3% 4-Star).
-* **Delivery Bottleneck:** Identifies shipping delays (>7 days) as the primary cause for 1-star reviews.
-* City-wise order volume and regional customer reach.
+* **Delivery Bottleneck:** Identifies shipping delays (>7 days) as the primary factor affecting customer experience.
+
+---
 
 ### 3. Cumulative Sales & Best Sellers
-* Cumulative revenue progression across months.
-* Top 10 sellers generating the highest sales volume.
+![Cumulative Sales & Best Sellers](Image_3.png)
+* Cumulative revenue progression tracking across months/quarters.
+* Highlights the Top 10 Best Sellers driving maximum sales volume.
+
+---
+
+### 4. Key Insights & Summary
+![Executive Summary](Image_4.png)
+* High-level executive overview summarizing core business findings and logistics bottlenecks.
 
 ---
 
 ## 💡 Business Insights & Recommendations
 * **Logistics Optimization:** Over 54% of orders take longer than 7 days to arrive. Partnering with local fulfillment centers in top hubs (like São Paulo and Rio de Janeiro) will lower delivery lag and prevent churn.
-* **Payment Optimization:** Provide incentives/discounts for instant digital payment methods to decrease settlement delays from Boleto.
-* **Seller Management:** Support high-performing sellers with automated inventory sync to avoid stockout issues during peak months (August/May).
+* **Payment Optimization:** Provide incentives for instant digital payment methods to decrease settlement delays from Boleto.
+* **Seller Management:** Support top-performing sellers with automated inventory sync to avoid stockout issues during peak months.
 
 ---
 
@@ -48,6 +59,6 @@ This project provides an end-to-end analysis of e-commerce performance, delivery
 ---
 
 ## 🚀 How to View the Project
-1. Clone this repository:
-   ```bash
-   git clone [https://github.com/your-username/Ecommerce-Sales-Customer-Churn-Analysis.git](https://github.com/your-username/Ecommerce-Sales-Customer-Churn-Analysis.git)
+1. Click on the green **Code** button at the top right of this repository.
+2. Select **Download ZIP** and extract the folder.
+3. Open the `.pbix` file using **Power BI Desktop**.
